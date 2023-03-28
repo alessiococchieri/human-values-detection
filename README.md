@@ -33,5 +33,5 @@ Compared to the [original paper](https://aclanthology.org/2022.acl-long.306.pdf)
 
 | MODEL               | SVM  | BERT-base | BERT-large | DistilBERT | RoBERTa-base | RoBERTa-large | XLNet-base | XLNet-large |   
 |:-------------------:|:----:|:---------:|:----------:|:----------:|:------------:|:-------------:|:----------:|:-----------:|
-| F1 avg macro (test) | 0.37 | 0.42      | 0.44       | 0.43       | 0.47         | 0.50          | 0.44       | 0.50        |   
+| F1 avg macro (validation) | 0.37 | 0.42      | 0.44       | 0.43       | 0.47         | 0.50          | 0.44       | 0.50        |   
 
