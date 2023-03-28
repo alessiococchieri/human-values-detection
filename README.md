@@ -1,7 +1,7 @@
 # Human Values Detection Behind Arguments
-In the current work we faced with the Task 4 of the Touché Competition: [Human Value Detection 2023](https://touche.webis.de/semeval23/touche23-web/index.html)
+In the current work, we are tackling Task 4 of the Touché Competition: [Human Value Detection 2023](https://touche.webis.de/semeval23/touche23-web/index.html)
 ## Task
-The task conists of a **multilabel text classification**. Given a textual argument and a human value category, classify whether or not the argument draws on that category.
+The task consits of a **multilabel text classification**. Given a textual argument and a human value category, classify whether or not the argument draws on that category.
 
 Arguments are given as a triplet: 
 - **Conclusion**: Conclusion text of the argument
@@ -13,7 +13,7 @@ We are using the data available on [Zenodo](https://zenodo.org/record/7550385#.Y
 We are referring only to the following data: `arguments-training.tsv`, `arguments-validation`, `labels-training.tsv`, `labels-validation.tsv`
 
 
-***NOTE***: *Since test data is provided without labels, we did not consider it for our analysis. In this regards **the performances of our models have been tested only on validation data**.*
+***NOTE***: *Since test data is provided without labels, we did not consider it for our analysis. In this regards **the performances of the tested models have been evaluated only on the validation data**.*
 
 
 ## Tested models
@@ -27,7 +27,7 @@ We are referring only to the following data: `arguments-training.tsv`, `argument
 - XLNet-large
 
 ## Results
-Compared to the [original paper](https://aclanthology.org/2022.acl-long.306.pdf), performances have been improved: 
+Compared to the [original paper](https://aclanthology.org/2022.acl-long.306.pdf), the macro-averaged F1 Score has been improved: 
 - **by more 20%** for the SVM model
 - **up to 47%** for transformers
 
