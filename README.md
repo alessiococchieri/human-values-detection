@@ -1,5 +1,13 @@
 # Human Values Detection Behind Arguments
 In the current work, we are tackling Task 4 of the Touché Competition: [Human Value Detection 2023](https://touche.webis.de/semeval23/touche23-web/index.html)
+
+## Useful resources
+| Model                | Notebook  |   
+|:--------------------:|:---------:|
+| SVM                  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1d377Z66uSZdRQeBpjG4zmAvZZsc86yyG?usp=sharing)| 
+| BERT, RoBERTa, DistilBERT | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1TU_xY9Bkjq5o_NxaWhAKybCdj3ndTNXN?usp=sharing)|  
+| XLNet                | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MxPhMs7wFDBk60h3YOBIt8yDyzEdsLxg?usp=sharing)| 
+
 ## Task
 The task consits of a **multilabel text classification**. Given a textual argument and a human value category, classify whether or not the argument draws on that category.
 
